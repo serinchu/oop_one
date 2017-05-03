@@ -1,7 +1,7 @@
 package serin;
 /*first created by programmer B*/
 
-public class Laptop extends Product implements Networked, DataStorage{
+public class Laptop extends Product implements Networked{
 //>>>>>>> branch 'master' of https://github.com/serinchu/oop_one.git
 	private double totalCapacity;
 	private double usedCapacity;
