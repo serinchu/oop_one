@@ -1,5 +1,6 @@
 
-public class SmartTV extends Product {
+public class SmartTV extends Product {		
+	//Product가 아직 나한테 없는상태에서 만들어서 오류 뜸
 	
 	int channel;
 	
