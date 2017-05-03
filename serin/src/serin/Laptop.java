@@ -1,5 +1,5 @@
 package serin;
-
+/*first created by programmer B*/
 public class Laptop implements Networked{
 	private double totalCapacity;
 	private double usedCapacity;
