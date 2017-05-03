@@ -40,4 +40,3 @@ public class Laptop extends Product implements Networked,DataStorage{
 		return null;
 	}
 }
-
