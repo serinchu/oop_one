@@ -6,6 +6,6 @@ public class serin {
 		System.out.println("hello");
 		System.out.println("serin");
 		System.out.println("paldal ¿Á»ó");
-		System.out.println("zzazung");
+		System.out.println("zzazg");
 	}
 }
