@@ -7,22 +7,28 @@ public class ProductTest {
 		
 		Product P = new Product();
 		
-	}
-	
-	public void testProduct(Product){
+		DataStorage D = new DataStorage();
+		
+		Cooker C = new Cooker();
+		
+		Networked N = new Networked();
 		
 	}
 	
-	public void testDataStorage(DataStorage){
-		
+	public void testProduct(Product P){
+		System.out.println("This method is testProduct");
 	}
 	
-	public void testNetworked(Networked){
-		
+	public void testDataStorage(DataStorage D){
+		System.out.println("This method is testDataStorage");
 	}
 	
-	public void testCooker(Cooker){
-		
+	public void testNetworked(Networked N){
+		System.out.println("This method is testNetworked");
+	}
+	
+	public void testCooker(Cooker C){
+		System.out.println("This method is testCooker");
 	}
 	
 	
