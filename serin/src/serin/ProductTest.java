@@ -4,6 +4,7 @@ public class ProductTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		ProductTest P = new ProductTest();
 		
 		Product t = new Toaster();
 		
@@ -11,11 +12,14 @@ public class ProductTest {
 		
 		Product l = new Laptop();
 		
+		P.testProduct(t);
+		P.testCooker((Cooker) t);
+		P.testDataStorage((Laptop) l);
+		
 	}
 	
-	public void testProduct(Toaster t){
+	public void testProduct(Product t){
 		System.out.println("This method is testProduct");
-		t.prepareFood();
 	}
 	
 	public void testDataStorage(Laptop l){
