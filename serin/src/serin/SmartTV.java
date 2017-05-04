@@ -6,11 +6,13 @@ public class SmartTV extends Product {
 	
 	public boolean isConnected(){
 		
+		System.out.println("This method is isConnected()");
 		return true;
 	}
 	
 	public double maxSpeed(){
 	
+		System.out.println("This method is maxSpeed()");
 		return 0;
 	}
 	@Override
